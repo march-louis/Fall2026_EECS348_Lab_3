@@ -1,0 +1,26 @@
+/*
+selector {
+  property: value;
+  another-property: value;
+}
+*/
+
+body {
+  background-color: darkgreen;
+}
+
+h1 {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  color: white;
+}
+
+p {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: pink;
+}
