@@ -2,11 +2,18 @@
 <html>
 <head>
 <title>Practice 3</title>
+<script src="password.js"></script>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1>Password Verification</h1>
+<label for="password">Enter Password:</label>
+  <input type="password" id="password" name="password">
+
+<label for="confirmPassword">Confirm Password:</label>
+  <input type="password" id="confirmPassword" name="confirmPassword">
+  <button onclick="checkPassword()">Submit</button>
+<p id="message"></p>
 
 </body>
 </html>
